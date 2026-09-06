@@ -1,6 +1,6 @@
-# 🔑 Generador de Hash Online Gratis — MD5, SHA-1, SHA-256, SHA-512
+# Hash Generator — Free Online Tool
 
-**Free Hash Generator.** Generate MD5, SHA-1, SHA-256 and SHA-512 hashes simultaneously in real time. Verify file and text integrity by comparing hashes. Hash any file directly in the browser — no uploads required. No sign-up, no ads, 100% client-side.
+**Hash Generator.** Generate MD5, SHA-1, SHA-256 and SHA-512 hashes in real time. Integrity verification. No sign-up, no ads, 100% client-side.
 
 🌐 **Demo en vivo / Live demo:** [miguelacm.es/tools/hash-generator](https://miguelacm.es/tools/hash-generator)
 
@@ -13,14 +13,9 @@
 
 ## ✨ Features
 
-- **4 algoritmos simultáneos / 4 simultaneous algorithms:** MD5, SHA-1, SHA-256 and SHA-512 computed at the same time for any input
-- **Tiempo real / Real time:** Hashes update instantly as you type
-- **Hash de archivos / File hashing:** Select any file to compute its cryptographic hash directly in the browser — nothing is uploaded
-- **Verificación de integridad / Integrity check:** Paste a known hash to compare it against the computed result with visual match/mismatch indicator
-- **Copiar al portapapeles / Copy to clipboard:** One-click copy for each algorithm
-- **Web Crypto API:** Uses the browser's native SubtleCrypto for SHA algorithms — fast and secure
-- **Embebible / Embeddable:** Use it as an iframe on any website
-- **Open source:** MIT license, use it freely
+- **🔐 Four algorithms:** MD5, SHA-1, SHA-256 and SHA-512 in real time.
+- **✅ Integrity check:** Compare against a known hash to verify content.
+- **🔒 100% private:** Hashing runs locally with the Web Crypto API.
 
 ---
 
@@ -46,15 +41,13 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/hash-generator
 
 ## 📦 Embed on your website
 
-### Iframe (plug & play)
-
 ```html
 <iframe
   src="https://miguelacm.es/embed/hash-generator"
   width="100%"
   height="700"
   style="border:none;border-radius:12px;"
-  title="Generador de Hash Online — miguelacm.es"
+  title="Hash Generator — miguelacm.es"
   loading="lazy"
 ></iframe>
 ```
@@ -63,11 +56,11 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/hash-generator
 
 ```html
 <a href="https://miguelacm.es/tools/hash-generator" target="_blank" rel="noopener">
-  Generador de hash MD5 SHA-256 gratis por MACM
+  Hash Generator — free tool by MACM
 </a>
 ```
 
-> 💡 The link option generates a real backlink that benefits the project. Recommended if your platform supports custom HTML.
+> 💡 The link option generates a real backlink that benefits the project.
 
 ---
 
@@ -75,7 +68,7 @@ NEXT_PUBLIC_EMBED_URL=https://miguelacm.es/embed/hash-generator
 
 | Technology | Version | Purpose |
 |---|---|---|
-| [Next.js](https://nextjs.org) | 16 | React framework + SSG |
+| [Next.js](https://nextjs.org) | 16 | React framework |
 | [TypeScript](https://www.typescriptlang.org) | 5 | Type safety |
 | [Tailwind CSS](https://tailwindcss.com) | 4 | Styling |
 | [react-icons](https://react-icons.github.io/react-icons/) | 5 | Icons |
